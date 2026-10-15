@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Sri Dayanti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- NAVIGASI -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+
+        <h1>Kontak Saya</h1>
+
+        <p>Jika ingin menghubungi saya, dapat melalui informasi berikut:</p>
+
+        <div class="kontak">
+            <strong>Email:</strong><br>
+            sridayanti@email.com
+        </div>
+
+        <div class="kontak">
+            <strong>Instagram:</strong><br>
+            @sridayantii
+        </div>
+
+        <h2>Kirim Pesan</h2>
+        <p>Atau Anda dapat mengirimkan pesan langsung melalui formulir di bawah ini:</p>
+
+        <!-- FORMULIR RAPI SESUAI CSS -->
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Alamat Email:</label>
+                <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="kategori">Kategori:</label>
+                <select id="kategori" name="kategori">
+                    <option value="diskusi">Diskusi Perkuliahan UNPAM</option>
+                    <option value="proyek">Penawaran Proyek Web</option>
+                    <option value="lainnya">Lainnya</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="pesan">Pesan Anda:</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tuliskan pesan Anda..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Kirim Pesan</button>
+        </form>
+
+        <a class="kembali" href="index.html">← Kembali ke Beranda</a>
+    </div>
+
+</body>
+</html>
